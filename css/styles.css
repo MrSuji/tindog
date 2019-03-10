@@ -51,6 +51,7 @@ p {
 
 .title-img {
     transform: rotate(25deg);
+    height: 100%;
     position: absolute;
 }
 
@@ -122,6 +123,7 @@ p {
     .title-img {
         position: static;
         transform: rotate(0);
+        height: 100%;
     }
     #title {
         text-align: center;
