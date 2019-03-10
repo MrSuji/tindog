@@ -29,6 +29,7 @@ h3 {
 
 p {
     color: #8f8f8f;
+    font-size: 1.3rem;
 }
 
 .container-fluid {
@@ -47,6 +48,8 @@ p {
 
 .download-btn {
     margin: 5% 3% 5% 0;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .title-img {
@@ -117,6 +120,29 @@ p {
 .card-header {
     background-color: #8F98A5;
     color: #fff;
+}
+
+#cta {
+    padding: 7% 15%;
+    background-color: #8F98A5;
+    text-align: center;
+}
+
+.cta-header {
+    font-family: 'Lilita One', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    font-size: 1.2rem;
 }
 
 @media (max-width:990px) {
