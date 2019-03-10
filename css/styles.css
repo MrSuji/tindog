@@ -32,7 +32,8 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 10% 7%;
+    margin-top: 100px;
 }
 
 .navbar-brand {
@@ -50,12 +51,15 @@ p {
 
 .title-img {
     transform: rotate(25deg);
+    position: absolute;
 }
 
 #features {
-    padding: 7% 15%;
+    padding: 10% 15%;
+    background-color: #fff;
     text-align: center;
-    margin: 3rem auto;
+    margin: 0 auto;
+    position: relative;
 }
 
 .feature-box {
@@ -112,4 +116,14 @@ p {
 .card-header {
     background-color: #8F98A5;
     color: #fff;
+}
+
+@media (max-width:990px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
 }
